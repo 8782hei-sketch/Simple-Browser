@@ -3,7 +3,7 @@ const news = document.getElementById("news");
 const newTemplate = document.getElementById("new-template").content;
 const clock = document.getElementById("clock");
 
-const NEWS_API_URL = "https://api.nytimes.com/svc/topstories/v2/world.json?api-key=726TnygwltfUQkJNuEvXwi4bYTPxQJaOw16YchHF18A58imE";
+const NEWS_API_URL = "https://api.nytimes.com/svc/topstories/v2/world.json?api-key=your-key-api";
 
 const DATE_UNITS = [
   ["year", 31536000],
